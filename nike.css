@@ -1,0 +1,367 @@
+
+body{
+    margin: 0;
+}
+.header{
+   background-color: rgb(139, 85, 85);
+   width: 100%;
+    height: 36px;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(238, 237, 237);
+    
+}
+.logo-image img{
+    width: 24px;
+    height: 24px;
+    background-color: rgb(238, 237, 237);
+    color: white;
+    margin-left: 40PX;
+    margin-top: 5px;
+}
+.cart{  
+    width: 50%;
+    height: 100%;
+    background-color: rgb(238, 237, 237);
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+    align-items: center;
+}
+.ul1{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    }
+    .second-head{
+        width: 100%;
+        height: 60px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+    }
+    
+ .nike-logo {
+    width: 20%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+     } 
+     .nike-logo img{
+        width: 100px;
+        padding-right: 150px;
+
+     }
+     .nike-center{
+        width: 50%;
+        font-size: 18px;
+        padding-left: 28px;
+
+     }
+     .nike-cent{
+        
+        color: #0c0c0c;
+        display: flex;
+        list-style-type: none;
+        gap: 10px;
+        justify-content: center;
+     }
+     .love{
+        width: 30%;
+        height: 25px;
+        color: rgb(0, 0, 0);
+        padding: 15px;
+        display:flex ;
+        justify-content: center;
+    align-items: center;
+    gap: 20px;
+     }
+      
+     .search-icon{
+        width: 18px;
+        height: 18px;
+        color: rgb(0, 0, 0);
+        position: relative;
+        left: 45px;
+        top:  2px;
+        display: flex ;
+    }
+    .search-input{
+        border-radius: 30px;
+        height: 25px;
+        color: rgb(0, 0, 0);
+    }
+    .image img{
+        width: 28px;
+        height: 28px;
+        display: flex;
+    }
+    .imag img{
+        width: 28px;
+        height: 28px;
+        display: flex ;
+    }
+    .blank{
+        width: 100%;
+        height: 60px;
+        background-color: rgb(238, 237, 237);
+        display: flex;
+    }
+    
+   
+    .shoe{
+        width: 100%;
+        height: 700px;
+        background-image: url(justdo.png);
+        background-size: cover;
+    }
+    .b1{
+     margin-top: 566px;
+     margin-left: 655px;
+     width: 112px;
+     height: 37px;
+     border-radius: 20px;
+    }
+    .b2{
+     margin-top: 500px;
+     margin-left: 0px;
+     width: 106px;
+     height: 37px;
+     border-radius: 20px;
+    }
+    .Athlete-Picks{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        
+    }
+   
+    .c1{
+        margin-top: 37px;
+     margin-left: 1388px;
+     width: 38px;
+     height: 38px;
+     border-radius: 22px; 
+    }
+    .c2{
+        margin-top: 30px;
+     margin-left: 2px;
+     width: 38px;
+     height: 38px;
+     border-radius: 22px; 
+    }
+    .c3{
+        margin-top: 30px;
+     margin-left: 2px;
+     width: 38px;
+     height: 38px;
+     border-radius: 22px; 
+    }
+    #name{
+       margin-top: 100px;
+
+    }
+    .third {
+    display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-template-rows: repeat(2, 1fr);
+    
+    width: 100%;
+    height: 1317px;
+}
+
+    .Athlete-Picks{
+        background-image: url("a.png"), url("a1.png");
+     background-size: 49% 80%, 50% 80%; 
+    background-position: left top, right top;
+    background-repeat: no-repeat, no-repeat;
+        margin-left: 25px;
+        margin-right: 25px;
+        }
+    .s1{
+    margin-top: 463px;
+     margin-left: 51px;
+     width: 75px;
+     height: 47px;
+     border-radius: 22px;
+    }
+    .s2{
+        margin-top: 462px;
+     margin-left: 686px;
+     width: 77px;
+     height: 47px;
+     border-radius: 22px; 
+    }
+    .w1{
+        margin-top: 556px;
+     margin-left: 52px;
+     width: 90px;
+     height: 47px;
+     border-radius: 22px; 
+    }
+    .w2{
+        margin-top: 556px;
+     margin-left: 58px;
+     width: 90px;
+     height: 47px;
+     border-radius: 22px; 
+    }
+    .w3{
+        margin-top: 556px;
+     margin-left: 58px;
+     width: 90px;
+     height: 47px;
+     border-radius: 22px; 
+    }
+    .w4{
+        margin-top: 555px;
+     margin-left: 55px;
+     width: 90px;
+     height: 47px;
+     border-radius: 22px;  
+    }
+    .nba-container {
+  display: flex; 
+  gap: 15px;   
+  justify-content: center;
+  margin-top: 30px;
+}
+.nba {
+  width: 467px;
+  height: 467px;
+  background-size: cover; 
+  background-position: center;       
+}
+.sport-container {
+  display: flex;       
+  gap: 15px;  
+  justify-content: center;  
+  margin-top: 30px;
+}
+.sport {
+  width: 467px;
+  height: 467px;
+  background-size: cover;      
+  background-position: center;   
+}
+   .shop {
+    display: grid;
+     grid-template-columns: repeat(1, 1fr);
+     grid-template-rows: repeat(1, 1fr);
+    
+    width: 100%;
+    height: 550px;
+}
+    .o1{
+     margin-top: 192px;
+     margin-left: 1165px;
+     width: 50px;
+     height: 50px;
+     border-radius: 25px;
+    }
+    .o2{
+     margin-top: -20px;
+     margin-left: 104px;
+     width: 50px;
+     height: 50px;
+     border-radius: 25px;
+    }
+    .bottom{
+        height: 30px;
+        font-size: 18px;
+        color: #0c0c0c;
+        display: flex;
+        list-style-type: none;
+        gap: 383px;
+        justify-content: left;
+     }
+     .world{
+        display: flex; 
+     }
+     .ww{
+        display: flex;
+     }
+      .world1{
+        display: flex;
+       margin-left: 320px;
+       margin-top: 16px;
+        height: 35px;
+       
+     }
+     .world2{
+        display: flex;
+        color: #262626;
+        margin-top: 5px;
+      
+       
+     }
+     .bott{
+        display: flex;
+        width: 100%;
+        height: 250px;
+         gap: 245px;
+     }
+     .bottom1{
+        height: 30px;
+        font-size: 15px;
+        color: #656464;    
+        list-style-type: none;
+        justify-content: left;
+        line-height: 2;
+     }
+      .bottom2{
+        height: 30px;
+        font-size: 15px;
+        color: #656464;    
+        list-style-type: none;
+        justify-content: left;
+        line-height: 2;
+     }
+     .bottom3{
+        height: 30px;
+        font-size: 15px;
+        color: #656464;    
+        list-style-type: none;
+        justify-content: left;
+        line-height: 2;
+     }
+     .l1{
+        width: 100%;
+        height: 100px;
+     }
+     .last1{
+         display: flex;
+        height: 30px;
+        font-size: 15px;
+        color: #000000;    
+        list-style-type: none;
+        justify-content: left;
+        line-height: 2;
+        gap: 20px;
+     }
+    
+
+   
+
+    
+    
+    
+        
+
+     
